@@ -171,52 +171,6 @@ griffon.project.dependency.resolution = {
         mavenCentral()
     }
     dependencies {
-        compile('org.codehaus.groovy.modules.http-builder:http-builder:0.5.2') {
-            exclude group: 'org.apache.httpcomponents', module: 'httpclient'
-            exclude group: 'net.sf.json-lib',           module: 'json-lib'
-            exclude group: 'org.codehaus.groovy',       module: 'groovy'
-            exclude group: 'net.sourceforge.nekohtml',  module: 'nekohtml'
-            exclude group: 'xml-resolver',              module: 'xml-resolver'
-            exclude group: 'oauth.signpost',            module: 'signpost-commonshttp4'
-            exclude group: 'oauth.signpost',            module: 'signpost-core'
-            exclude group: 'xerces',                    module: 'xercesImpl'
-            exclude group: 'log4j',                     module: 'log4j'
-        }
-        compile('net.sf.json-lib:json-lib:2.4:jdk15') {
-            exclude group: 'commons-beanutils',   module: 'commons-beanutils'
-            exclude group: 'commons-collections', module: 'commons-collections'
-            exclude group: 'commons-lang',        module: 'commons-lang'
-            exclude group: 'commons-logging',     module: 'commons-logging'
-            exclude group: 'xom',                 module: 'xom'
-            exclude group: 'oro',                 module: 'oro'
-            exclude group: 'net.sf.ezmorph',      module: 'ezmorph'
-            exclude group: 'log4j',               module: 'log4j'
-            exclude group: 'org.codehaus.groovy', module: 'groovy-all'
-        }
-        compile('net.sf.ezmorph:ezmorph:1.0.6') {
-            exclude group: 'commons-beanutils',   module: 'commons-beanutils'
-            exclude group: 'commons-lang',        module: 'commons-lang'
-            exclude group: 'commons-logging',     module: 'commons-logging'
-            exclude group: 'log4j',               module: 'log4j'
-        }
-        compile('commons-beanutils:commons-beanutils:1.8.0') {
-            exclude group: 'commons-logging',     module: 'commons-logging'
-            exclude group: 'commons-collections', module: 'commons-collections'
-        }
-        compile('org.apache.httpcomponents:httpclient:4.1.2') {
-            exclude group: 'org.apache.httpcomponents', module: 'httpcore'
-            exclude group: 'commons-logging',           module: 'commons-logging'
-            exclude group: 'commons-codec',             module: 'commons-codec'
-        }
-        compile 'commons-collections:commons-collections:3.2.1',
-                'commons-codec:commons-codec:1.6',
-                'org.apache.httpcomponents:httpcore:4.1.2',
-                'xml-resolver:xml-resolver:1.2',
-                'commons-lang:commons-lang:2.6'
-        compile('xerces:xercesImpl:2.9.1') {
-            exclude group: 'xml-apis',     module: 'xml-apis'
-            exclude group: 'xml-resolver', module: 'xml-resolver'
-        }
     }
 }
 
