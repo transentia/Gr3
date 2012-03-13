@@ -1,0 +1,38 @@
+rule "Big Win"
+     salience 2
+     dialect "mvel"
+     lock-on-active
+     activation-group "pokie"
+  when
+      e : Evaluation(special == true,
+        (leftReelValue == middleReelValue) && (leftReelValue == rightReelValue))
+  then
+     #System.out.println( "Big Win" );
+     modify ( e ) { result = EvaluatorResult.BIGWIN };
+end
+
+rule "Small Win"
+     salience 1
+     dialect "mvel"
+     lock-on-active
+     activation-group "pokie"
+  when
+      e : Evaluation(special == false,
+        (leftReelValue == middleReelValue) && (leftReelValue == rightReelValue))
+  then
+     #System.out.println( "Small Win" );
+     modify ( e ) { result = EvaluatorResult.SMALLWIN };
+end
+
+rule "Losing"
+     salience 0
+     dialect "mvel"
+     lock-on-active
+     activation-group "pokie"
+  when
+      e : Evaluation()
+  then
+     #System.out.println( "Losing" );
+     modify ( e ) { result = EvaluatorResult.LOSE };
+end
+
