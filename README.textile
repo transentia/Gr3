@@ -1,0 +1,10 @@
+h1. README
+
+This is the public repository for the code associated with the "GroovyMag":http://www.groovymag.com article "Gambling on Griffon And Grails Going Gangbusters" 
+
+This is a straightforward client-server pairing that shows how a Griffon/Groovy application can use simple REST principles to work with a Grails/Groovy server.
+
+An "impression is available":http://wordpress.transentia.com.au/wordpress/2010/05/10/another-groovymag-masterpiece-gambling-on-griffon-and-grails-going-gangbusters/.
+
+There are two IntelliJ projects here. 'Gr3Client' encapsulates the Java swing based desktop application, written to highlight the capabilities of the excellent "Griffon":http://griffon.codehaus.org framework. 'Gr3Server' encapsulates the corresponding "Grails":http://www.grails.org HTTP-server side application.
+
