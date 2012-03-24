@@ -24,7 +24,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="griffon-0.9.5-rc2" level="application" />
-    <orderEntry type="module" module-name="Gr3Client-griffonPlugins" />
   </component>
 </module>
 
