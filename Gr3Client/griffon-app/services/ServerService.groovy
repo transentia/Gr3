@@ -5,10 +5,9 @@ class ServerService {
 
   def registerAction = {->
     withRest(uri: NetworkUtils.URI) {
-      def resp = post(path: 'register'/*,
-              responseContentType: TEXT*/)
+      def resp = post(path: 'register')
       assert resp.status == 200
-      assert resp.data?.text == "OK"
+      //assert resp.data?.text == "OK"
     }
   }
 

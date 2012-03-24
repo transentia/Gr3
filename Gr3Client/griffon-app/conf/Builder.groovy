@@ -4,7 +4,6 @@ root {
         view = '*'
     }
 }
-root.'RestGriffonAddon'.addon=true
 
 jx {
     'groovy.swing.SwingXBuilder' {
