@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd3bbf5c-7116-41cd-bf91-486d336eacd0" name="Default" comment="">
-      <change type="DELETED" beforePath="S:\DEVELOPMENT\Gr3\Gr3Client\staging\log4j-1.2.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="S:\DEVELOPMENT\Gr3\Gr3Client\test\unit\x\FredServiceTests.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gr3Client.iml" afterPath="$PROJECT_DIR$/Gr3Client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gr3Client.ipr" afterPath="$PROJECT_DIR$/Gr3Client.ipr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staging/gervill-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staging/griffon-jfugue-runtime-0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staging/griffon-rest-runtime-0.8.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staging/httpclient-4.1.2.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gr3Client.iws" afterPath="$PROJECT_DIR$/Gr3Client.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Gr3Server/Gr3Server.iws" afterPath="$PROJECT_DIR$/../Gr3Server/Gr3Server.iws" />
     </list>
     <ignored path="Gr3Client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -614,7 +612,11 @@
       <created>1331630348250</created>
       <updated>1331630348250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Minor cleanups">
+      <created>1332586905943</created>
+      <updated>1332586905943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
